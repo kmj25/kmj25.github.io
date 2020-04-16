@@ -1,0 +1,167 @@
+body, html {
+    cursor: url(greycursor.cur), auto;
+    background-color: #ffdab9;
+    margin: 0;
+    padding-top: 50px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*텍스트 드래그 블러*/
+::selection{ 
+    color: transparent; 
+    text-shadow: 0 0 2px #000000; 
+    transition: all 250ms ease-in; 
+  } 
+::-moz-selection{ 
+    color: transparent; 
+    text-shadow: 0 0 2px #000000; 
+    transition: all 250ms ease-in; 
+  }
+
+
+header a {
+    text-decoration: none;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 24px;
+    color: #ff8a46; 
+}
+
+header {
+    border-bottom: 1px solid rgb(207, 180, 166);
+    padding: 12px;
+}
+
+nav {
+    float: left;
+    width: 120px;
+    border-right: 1px solid rgb(207, 180, 166);
+    line-height: 19px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+article {
+    float: left;
+    width: 410px;
+    border-left: 1px solid rgb(207, 180, 166);
+    margin-left: -1px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+#box {
+    background-color: white;
+    border: 1px solid rgb(207, 180, 166);
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+/*스크롤바 디자인*/
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #ff8a46;
+  }
+::-webkit-scrollbar-track {
+    background-color: white;
+  }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    list-style: none;
+    font-size: 13px;
+}
+
+
+#subtitle {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 20px;
+    padding-bottom: 14px;
+}
+
+#heart-icon {
+    color: #ff8a46;
+    padding-right: 8px;
+}
+
+#contents {
+    font-size: 14px;
+    text-align: justify;
+}
+
+#contents a {
+    color: #ff8a46;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #ff8a46;
+}
+
+aside {
+    font-size: 30px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+article .small-box {
+    border: 1px solid rgb(207, 180, 166);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+aside a:link {
+    color: #ff8a46;
+    text-decoration: none;
+}
+aside a:visited {
+    color: #ff8a46;
+    text-decoration: none;
+}
+aside a:hover {
+    color: white;
+    text-decoration: none;
+}
+aside a:active {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #000000;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ff8a46;
+    text-decoration: none;
+}
+nav a:active {
+    color: #ff8a46;
+    text-decoration: none;
+}
